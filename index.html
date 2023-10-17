@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="lt" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Domas Šestakovas">
+  <meta name="description" content="Domas Šestakovas, Lietuva, Kaunas, 2023-10-16">
+  <meta name="subject" content="Vilniaus Universitetas, Kauno fakultetas, Informacijos pateikimo internete technologijos">
+  <title>CyberAID</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+<section class="header">
+    <nav>
+      <a href="index.html"><img src="images/abstract_design_background_0203.png"></a>
+      <h1>CyberAID</h1>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">PAGRINDINIS</a></li>
+          <li><a href="Pagalba.html">PIRMOJI PAGALBA</a></li>
+          <li><a href="Edukacija.html">EDUKACIJA</a></li>
+          <li><a href="Paslaugos.html">PASLAUGOS</a></li>
+          <li><a href="Kontaktai.html">SUSISIEKTI</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-eye" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Pirmoji pagalba po įsilaužimo</h1>
+      <p>Jeigu esate isitikinę arba dvejoje dėl savo įrenginių saugumo,<br> eikite į skiltį Pirmoji pagalba</p>
+      <a href="" class="hero-btn">PIRMOJI PAGALBA</a>
+    </div>
+
+</section>
+
+<!---------------Paslaugos----------------->
+
+<section class="paslaugos">
+  <h1>Paslaugos kurias siūlome</h1>
+
+  <div class="row">
+    <div class="paslaugu-pasirinkimas">
+      <h3>Pirmoji pagalba</h3>
+      <p>Patikriname Jūsų įrenginius po kibernetinės atakos, sutvarkome tolemesniam naudojimui.</p>
+    </div>
+    <div class="paslaugu-pasirinkimas">
+      <h3>Konsultacija</h3>
+      <p>Konsultuojame įvykus kibernetiniam incidentui tiek privačius klientus, tiek įmones.</p>
+    </div>
+    <div class="paslaugu-pasirinkimas">
+      <h3>Apsauga ir prevencija</h3>
+      <p>Atliekame saugumo testus, užtikriname, jog toks įvykis nepasikartotu.</p>
+    </div>
+  </div>
+</section>
+
+<!----------------Edukacija----------------->
+
+<section class="edukacija">
+  <h1>Atakų tipai ir įvairoves</h1>
+  <h2>Kibernetinių atakų yra įvairiu, čia yra minimos dažniausiai pataisikančios ir dažniausiai įsilaužiami prietaisai ir technologijos</h2>
+
+  <div class="row">
+    <div class="edu-tipai">
+      <img src="images/asmeninis.jpg">
+      <div class="layer">
+        <h3>Asmeniniai kompiuteriai</h3>
+      </div>
+    </div>
+    <div class="edu-tipai">
+      <img src="images/mob1.jpg">
+      <div class="layer">
+        <h3>Mobilieji įreniginiai</h3>
+      </div>
+    </div>
+    <div class="edu-tipai">
+      <img src="images/soc1.jpg">
+      <div class="layer">
+        <h3>Socialinių tinklų paskyros</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------------Patarimai---------------->
+
+<section class="patarimai">
+  <h1>Saugumo patarimai</h1>
+  <p>Prevencija yra geriausiais būdas apsisaugoti nuo įsilaužimų.</p>
+
+  <div class="row">
+    <div class="patarimai-eil">
+
+    </div>
+  </div>
+</section>
+
+<!-------------Kreipkites---------------->
+
+<section class="kreipkites">
+  <h1>Susigrąžinkite ramybę susisiekdami<br>su mumis.</h1>
+  <a href="Kontaktai.html" class="hero-btn">SUSISIEKTI</a>
+</section>
+
+<!--------- Footer ---------->
+
+<section class="footer">
+  <h4>Apie mus</h4>
+  <p>Naujovės kelia naujus iššukius, todėl reikia naujų sprendimų kurie efektyviai išspręstu iškilusius <br> neskaldumus, o čia Jūs kreipiates į mus.</p>
+  <p>Copyright &copy; CyberAID, 2023</p>
+
+</section>
+
+
+
+
+<!-----JavaScript for Mobile Menu------->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+  function  showMenu(){
+    navLinks.style.right = "0";
+  }
+  function  hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>
