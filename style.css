@@ -297,11 +297,219 @@ hę:hover {
     color: white;
 }
 
+/*--------------------- PIRMA PAGALBA PUSLAPIS ----------------*/
 
+.header {
+    height: 30vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.pagalba {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px ;
+    padding-bottom: 50px;
+}
+.pagalba h1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.pagalba p, li {
+    color: white;
+    text-align: left;
+}
+.pagalba-eil li {
+    margin-bottom: 17px;
+}
+.pagalba-eil {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.pagalba-eil img {
+    width: 100%;
+    border-radius: 15px;
+}
+.pagalba-eil h3 {
+    color: white;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 22px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.pagalba-eil h1 {
+    padding-top: 0;
+}
+.pagalba-eil ul {
+    padding: 15px 0 25px;
+}
 
+/*--------------------- Greitas patikrinimas ----------------*/
 
+.greitas {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: -50px;
+}
+.greitas p {
+    color: white;
+}
+.Greitas-pat {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.Greitas-pat h2 {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.Greitas-pat li {
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 22px;
+}
 
+/*--------------------- Instrukcija ----------------*/
 
+.instrukcija {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: -50px;
+}
+.instrukcija p, h2 {
+    color: white;
+    padding-top: 25px;
 
+}
+.instrukcija h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.pirmas-zingsnis p {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.pirmas-zingsnis h2 {
+    color:#f44336;
+}
+.antras-zingsnis p {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.antras-zingsnis h2 {
+    color:#f44336;
+}
+.trecias-zingsnis p {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.trecias-zingsnis h2 {
+    color:#f44336;
+}
+.ketvirtas-zingsnis p {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.ketvirtas-zingsnis h2 {
+    color:#f44336;
+}
+.penktas-zingsnis p {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.penktas-zingsnis h2 {
+    color:#f44336;
+}
+.sestas-zingsnis p {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.sestas-zingsnis h2 {
+    color:#f44336;
+}
+.red-btn {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.red-btn:hover {
+    color: white;
+}
 
+/*---------------- KONTAKTAI PUSLAPIS ---------------*/
 
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe {
+    width: 100%;
+}
+
+.susisiekite-su {
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+.susisiekite-eil {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.susisiekite-eil div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    color: white;
+}
+.susisiekite-su p {
+    color: white;
+}
+.susisiekite-eil div .fa {
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+}
+.susisiekite-eil div p{
+    padding: 0;
+}
+.susisiekite-eil div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
