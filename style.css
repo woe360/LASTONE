@@ -7,7 +7,7 @@
 }
 header {
     min-height: 100vh;
-    width: 100%;
+    width: 70%;
     background-color: gray;
     background-position: center;
     background-size: cover;
@@ -29,9 +29,6 @@ nav h1:hover {
 nav img {
     width: 120px;
     margin-top: 5px;
-}
-nav img:hover {
-    color:orange;
 }
 .nav-links {
     flex: 1;
@@ -132,7 +129,7 @@ nav .fa {
 /*---------------- Paslaugos --------------*/
 
 .paslaugos {
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -184,9 +181,6 @@ h3 {
     font-weight: 600;
     margin: 10px 0;
 }
-hę:hover {
-
-}
 
 .paslaugu-pasirinkimas:hover {
 
@@ -201,17 +195,24 @@ hę:hover {
 /*-------------- Edukacija ----------------------*/
 
 .edukacija {
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 
+    border-top: 1px solid #f44336;
+    width: 70%;
+    margin: auto;
+
 }
-.edukacija hi, p {
+.edukacija h1, p {
     color: black;
 }
 .edukacija h2 {
     color: white;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
 .edu-tipai {
@@ -246,32 +247,47 @@ hę:hover {
     font-size: 26px;
     bottom: 0;
     right: 0;
-    margin-top: 500px;
+    margin-top: 600px;
     left: 50%;
     transform: translateX(-50%);
     position: relative;
     background-color: transparent;
     z-index: 1;
+    transition: 0.5s;
+    opacity: 0;
+}
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+
 }
 
-
-/*---------------- Patarimai -------------*/
+    /*---------------- Patarimai -------------*/
 
 .patarimai {
     width: 80%;
     margin:auto;
     text-align: center;
     padding-top: 100px;
+
+    border-top: 1px solid #f44336;
+    width: 70%;
+    margin: auto;
 }
 .patarimai p {
     color: white;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.patarimai hero-btn {
+    margin-top: 20px;
 }
 
 /*------------ Kreipkites ------------------*/
 
 .kreipkites {
     margin: 100px auto;
-    width: 80%;
+    width: 70%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/cta.jpg);
     background-position: center;
     background-size: cover;
@@ -298,7 +314,7 @@ hę:hover {
     text-align: center;
     padding: 30px 0;
     border-top: 1px solid #f44336;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -413,10 +429,15 @@ hę:hover {
     text-align: center;
 }
 .pagalba {
-    width: 80%;
+    width: 65%;
     margin: auto;
     padding-top: 0;
     padding-bottom: 50px;
+
+    border-top: 1px solid #f44336;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
 }
 .pagalba h1 {
     font-size: 25px;
@@ -428,15 +449,13 @@ hę:hover {
 }
 .pagalba-eil li {
     margin-bottom: 17px;
+    font-size: 20px;
 }
 .pagalba-eil {
-    flex-basis: 48%;
+    flex-basis: 70%;
     padding: 30px 2px;
 }
-.pagalba-eil img {
-    width: 100%;
-    border-radius: 15px;
-}
+
 .pagalba-eil h3 {
     color: white;
     font-weight: 400;
@@ -467,12 +486,13 @@ hę:hover {
     text-align: center;
     width: 60%;
     margin: auto;
+    margin-top: 40px;
 }
 .greitas {
-    width: 80%;
+    width: 70%;
     margin:auto;
     text-align: center;
-    padding-top: -50px;
+    padding-top: -40px;
 }
 .greitas p {
     color: white;
@@ -481,13 +501,15 @@ hę:hover {
     width: 80%;
     margin:auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 70px;
+
 }
 .Greitas-pat h2 {
     color: white;
     padding-bottom: 30px;
     font-size: 35px;
     font-weight: 500;
+
 }
 .Greitas-pat li {
     text-align: left;
@@ -498,14 +520,24 @@ hę:hover {
 .Greitas-pat span3 {
     color: #f44336;
 }
+@media(max-width: 700px){
+    .greitas h3 {
+        width: 70%;
+    }
+}
 
 /*--------------------- Instrukcija ----------------*/
 
 .instrukcija {
-    width: 80%;
+    width: 70%;
     margin:auto;
     text-align: center;
     padding-top: -50px;
+
+    border-top: 1px solid #f44336;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
 }
 .instrukcija p, h2 {
     color: white;
@@ -584,16 +616,45 @@ hę:hover {
     width: 200px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .red-btn:hover {
     color: white;
 }
 
+/*---------------- EDUKACIJOS PUSLAPIS ---------------*/
+
+
+.edukacios-pat img {
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.edukacija {
+    margin-top: 40px;
+}
+@media(max-width: 700px){
+    .edukacija h2 {
+        font-size: 20px;
+        margin-top: -25px;
+        margin-bottom: 20px;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+    .paslaugos {
+        padding-bottom: 120px;
+    }
+}
+
+
+
+
 /*---------------- KONTAKTAI PUSLAPIS ---------------*/
 
 .location {
-    width: 80%;
+    width: 70%;
     margin: auto;
     padding: 80px 0;
 }
@@ -603,7 +664,7 @@ hę:hover {
 }
 
 .susisiekite-su {
-    width: 80%;
+    width: 70%;
     margin: auto;
     color: white;
 }
@@ -619,6 +680,7 @@ hę:hover {
 }
 .susisiekite-su p {
     color: white;
+
 }
 .susisiekite-eil div .fa {
     font-size: 40px;
@@ -646,5 +708,20 @@ hę:hover {
     color: #f44336;
     font-size: 18px;
     border-radius: 15px;
-
 }
+@media(max-width: 700px){
+    .location iframe{
+        margin-top: -40px;
+    }
+    .footer {
+        margin-top: -10px;
+    }
+}
+
+
+
+
+
+
+
+
