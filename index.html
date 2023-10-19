@@ -10,14 +10,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+  <link rel="icon" href="images/globe.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/globe.png" type="image/x-icon">
+
+
 
 </head>
 
 <body>
 <section class="header">
     <nav>
-      <a href="index.html"><img src="images/abstract_design_background_0203.png"></a>
+      <a href="index.html"><img src="images/globe.png"></a>
       <a href="index.html" style="text-decoration: none;"><h1>CyberAID</h1></a>
       <div class="nav-links" id="navLinks">
         <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
@@ -34,7 +40,7 @@
 
     <div class="text-box">
       <h1>Pirmoji pagalba po įsilaužimo</h1>
-      <p>Jeigu esate isitikinę arba dvejoje dėl savo įrenginių saugumo, spauskite<br> žemiau esantį mygtuką</p>
+      <p>Jeigu esate isitikinę arba dvejoje dėl savo įrenginių saugumo, eikite<br> į pirmają pagalbą</p>
       <a href="Pagalba.html" class="hero-btn">PIRMOJI PAGALBA</a>
     </div>
 
@@ -64,8 +70,13 @@
 <!----------------Edukacija----------------->
 
 <section class="edukacija">
-  <h1>Atakų tipai ir įvairoves</h1>
-  <h2>Kibernetinių atakų yra įvairiu, čia yra minimos dažniausiai pataisikančios ir dažniausiai įsilaužiami prietaisai ir technologijos</h2>
+  <h1>TOP 3 atakų taikiniai</h1>
+  <h2>Kibernetinių atakų taikinių yra įvairiu, čia yra minimi dažniausiai įsilaužiami prietaisai ir technologijos.</h2>
+  <ul>
+    <p>Asmeniniai kompiuteriai</p>
+    <p>Mobilieji telefonai</p>
+    <p>Socialinės paskyros</p>
+  </ul>
 
   <div class="row">
     <div class="edu-tipai">
@@ -111,15 +122,54 @@
 
 <!--------- Footer ---------->
 
+
 <section class="footer">
-  <h4>Apie mus</h4>
-  <p>Naujovės kelia naujus iššukius, todėl reikia naujų sprendimų kurie efektyviai išspręstu iškilusius <br> neskaldumus, o čia Jūs kreipiates į mus.</p>
-  <p>Copyright &copy; CyberAID, 2023</p>
-
+  <div class="container">
+    <div class="row-footer">
+      <div class="footer-eil">
+        <h4>NAVIGUOTI</h4>
+        <ul>
+          <li><a href="index.html">Pagrindinis</a></li>
+          <li><a href="Pagalba.html">Pirmoji pagalba</a></li>
+          <li><a href="Edukacija.html">Edukacija</a></li>
+          <li><a href="Paslaugos.html">Paslaugos</a></li>
+          <li><a href="Kontaktai.html">Susisiekti</a></li>
+        </ul>
+      </div>
+      <div class="footer-eil">
+        <h4>PAGALBA</h4>
+        <ul>
+          <li><a href="#">DUK</a></li>
+          <li><a href="#">Požymiai</a></li>
+          <li><a href="#">Greitas patikrinimas</a></li>
+          <li><a href="#">Instrukcija</a></li>
+          <li><a href="#">Paslaugos</a></li>
+        </ul>
+      </div>
+      <div class="footer-eil">
+        <h4>PASLAUGOS</h4>
+        <ul>
+          <li><a href="#">Auditas</a></li>
+          <li><a href="#">Konsultacija</a></li>
+          <li><a href="#">Apsauga</a></li>
+          <li><a href="#">Prevencija</a></li>
+          <li><a href="#">Karštoji linija</a></li>
+        </ul>
+      </div>
+      <div class="footer-eil">
+        <h4>SEKITE MUS</h4>
+        <div class="socialiniai">
+          <p>CyberAID - kibernetinio saugumo įmonė, siūlanti priemones kurios apsaugo privačius klientus bei įmonės nuo moderniausių grėsmių</p>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <p>Copyright &copy; CyberAID, 2023</p>
+  </div>
 </section>
-
-
-
 
 <!-----JavaScript for Mobile Menu------->
 <script>
